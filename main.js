@@ -33,12 +33,31 @@
 
 // console.log(person['profession'][0]);
 
-function square(number){
-    return number * number
-}
+// function square(number){
+//     return number * number
+// }
     
 
 const result = square(10)
 console.log(result);
+
+ function calculateDiscount(price, percentage){
+    const total = price- (price*percentage/100);
+    return total
+ }
+
+ const myDiscount = calculateDiscount(200, 10)
+ console.log(myDiscount);
+
+// my turn //
+
+
+
+function calculateDiscount(price, percentage){
+    const total = price - (price*percentage/100);
+    return total
+}
+const myDiscount = calculateDiscount(1000, 6)
+console.log(myDiscount);
 
 
