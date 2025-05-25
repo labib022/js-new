@@ -31,11 +31,11 @@
 
 // } 
 
-// console.log(person['profession'][0]);
+console.log(person['profession'][0]);
 
-// function square(number){
-//     return number * number
-// }
+function square(number){
+    return number * number
+}
     
 
 const result = square(10)
@@ -49,7 +49,7 @@ console.log(result);
  const myDiscount = calculateDiscount(200, 10)
  console.log(myDiscount);
 
-// my turn //
+/
 
 
 
@@ -57,7 +57,16 @@ function calculateDiscount(price, percentage){
     const total = price - (price*percentage/100);
     return total
 }
-const myDiscount = calculateDiscount(1000, 6)
+const myDiscount = calculateDiscount(1000, 15)
 console.log(myDiscount);
+
+
+
+const users = ["Lamin", "Lewra", "pedri", "Inigo", "Fermin", "Gavi", "kunde"];
+for(let i = 0; i< users.length; i++){
+    console.log(`hi, ${users[i]}`)
+    console.log("-----------")
+    
+}
 
 
